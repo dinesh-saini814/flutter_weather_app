@@ -19,7 +19,7 @@ samples, guidance on mobile development, and a full API reference.
 
 
 ### Screenshots:
-<p>
+<p align="center" >
   <img src="https://github.com/dinesh-saini814/flutter_weather_app/blob/main/assets/icon/Screenshot_1700419493.png" alt="App Screenshot" width="350" title="App Screenshot">
   
 </p>
