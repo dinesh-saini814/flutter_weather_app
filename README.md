@@ -16,3 +16,7 @@ For help getting started with Flutter development, view the
 samples, guidance on mobile development, and a full API reference.
 ### Api key used: 
 [openweathermap](https://openweathermap.org/api_keys/) api key 
+
+<p>
+    <img src="assets\Screenshot_1700419493.png" width="350" title="hover text">
+</p>
