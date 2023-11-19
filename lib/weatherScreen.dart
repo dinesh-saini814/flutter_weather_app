@@ -20,7 +20,7 @@ class weatherScreen extends StatefulWidget {
 class _weatherScreenState extends State<weatherScreen> {
   late Future<Map<String, dynamic>> weather;
   late TextEditingController _searchController;
-  String cityname = 'Neem Ka Thana';
+  String cityname = 'Ahmedabad, Gujarat';
   Future<Map<String, dynamic>> getWeatherData() async {
     try {
       final responce = await http.get(
@@ -59,11 +59,11 @@ class _weatherScreenState extends State<weatherScreen> {
     return Scaffold(
       backgroundColor: Theme.of(context).brightness == Brightness.light
           ? const Color.fromARGB(
-              255, 193, 183, 221) // Set to black for light theme
+              255, 201, 212, 228) // Set to black for light theme
           : null,
       appBar: AppBar(
         backgroundColor: Theme.of(context).brightness == Brightness.light
-            ? const Color.fromARGB(255, 193, 183, 221)
+            ? const Color.fromARGB(255, 201, 212, 228)
             : null, // Use default color for dark theme
         title: Text(
           cityname,
@@ -76,7 +76,7 @@ class _weatherScreenState extends State<weatherScreen> {
           IconButton(
             onPressed: () {
               setState(() {
-                cityname = 'Neem Ka Thana';
+                cityname = 'Ahmedabad, Gujarat';
                 weather = getWeatherData();
               });
             },
