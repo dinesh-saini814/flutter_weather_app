@@ -17,8 +17,9 @@ samples, guidance on mobile development, and a full API reference.
 ### Api key used: 
 [openweathermap](https://openweathermap.org/api_keys/) api key 
 
+
+### Screenshots:
 <p>
-  <img src="https://github.com/dinesh-saini814/flutter_weather_app/blob/main/assets/icon/Screenshot_1700419493.png" alt="App Screenshot" width="350" title="App Screenshot">
   <img src="https://github.com/dinesh-saini814/flutter_weather_app/blob/main/assets/icon/Screenshot_1700419493.png" alt="App Screenshot" width="350" title="App Screenshot">
   
 </p>
